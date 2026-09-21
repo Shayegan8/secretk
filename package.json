@@ -5,10 +5,10 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "index.js",
+  "main": "receiver.js",
   "scripts": {
     "build": "tsc",
-    "dev": "node dist/index.js"
+    "dev": "node dist/receiver.js"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1136.0",
